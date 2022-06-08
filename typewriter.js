@@ -3,8 +3,9 @@ const sentence = "My name is Salma and I am a LHL student";
   for(const char of sentence) {
     setTimeout(() => {  
       process.stdout.write(char)
-    }, wait) 
- 
-  wait += 50
+    }, wait += 50) 
 }
+setTimeout(() => {  
+  console.log(' ')
+},wait);
 
